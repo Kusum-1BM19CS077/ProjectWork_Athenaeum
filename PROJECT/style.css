@@ -9,7 +9,7 @@ body{
     
 }
 .loginbox{
-    background:rgba(0,0,0,.5);
+    background:rgba(0,0,0,.356);
     width:380px;
     padding: 11px;
     text-align: center;
@@ -30,7 +30,7 @@ body{
 
 .form-control{
     color:white;
-    margin-top: 10px;
+    margin-top: 1px;
     text-align: left;
     font-size: 19px;
     height: 41px;
@@ -97,7 +97,7 @@ body{
 }
 
 .signupbox{
-    background:rgba(0,0,0,.5);
+    background:rgba(0,0,0,.356);
     width:380px;
     padding: 11px;
     text-align: center;
