@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+        <title>IV-SEMESTER Syllabus</title>
+      <link rel="stylesheet" href="main3syllabus.css"/>
+      <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Montserrat Alternates' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Bellota' rel='stylesheet'>
+        <div class="top">
+          <p><a href="homepage.html" style="color:white;text-decoration: none;padding-right: 23px;">BACK TO HOMEPAGE</a>
+            <a href="#contactus" style="color:white;text-decoration: none; padding-right: 23px;">CONTACT US</a>
+            <a href="login.html" style="color:white;text-decoration: none;padding-right: 23px;">LOGOUT</a></p>
+          
+      </div>
+  <div class="heading">
+        <div class="allignleft"><img src="logo.png" height=110px width=100px></div>
+  <div class="name">
+        <p>Athenaeum</p>
+        <p class="name2">BMSCE's Official Online Virtual Library</p>
+    </div>
+      </div>
+      <br><br><br>
+
+  <h1>Welcome to IV Semester,</h1>
+      <br>
+  <br>
+  <header>
+
+<div class="display-container">
+  <img class="mySlides" src="slide5.jpg">
+  <img class="mySlides" src="slide1.jpg">
+  <img class="mySlides" src="slide3.jpg">
+  <img class="mySlides" src="slide4.jpg">
+
+  <button class="display-left" onclick="plusDivs(-1)" >&#10094;</button>
+  <button class="display-right" onclick="plusDivs(1)" style="float:right">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+</header>
+  </head>
+
+
+        <body>
+            <br>
+    <br>
+    <br>
+            <div class="sidenav">
+        <p style="color: white; font-size: 30px;text-align: center;font-family:Montserrat Alternates ;font-style: italic;"> Pick to explore: </p>
+        <br><br><br>
+         <a href="main3syllabus.html" style="font-size: 21px;;" >~Syllabus</a> <br><br>
+        <a href="main3TB.html" style="font-size: 21px;">~TextBooks</a> <br><br>
+        <a href="main3RB.html" style="font-size: 21px;">~Recommended Books</a> <br><br>
+        <a href="" style="font-size: 21px;">~E-Resources</a><br><br>
+        <a href="" style="font-size: 21px; font-style: italic;">~BOOK EXCHANGE</a>
+
+        </div>
+            
+            <div style="padding-left: 190px;">
+    
+                <div class="dropdown">
+                <button class="dropbtn" style="font-family: Montserrat Alternates;">Linear Algebra</button>
+                <div class="dropdown-content">
+                    <a href="#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 1:SYSTEM OF LINEAR EQUATIONS AND VECTOR SPACES<br>
+Elementary row operations, echelon forms, rank of matrix.
+System of Linear Equations: solution of homogeneous equations, consistency of non-homogeneous system of linear
+equations. Gauss elimination method, LU decomposition method.
+Vector spaces: Subspaces, Linear Combinations, Linear Spans, row space and column space of a Matrix, Linear
+Dependence and Independence, Basis and Dimension, Coordinates.                        Kruskal’s algorithm, Prim’s algorithm, shortest path-Dijkstra’s algorithm.</b></a>
+                    <a href="#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 2:LINEAR TRANSFORMATIONS <br>
+Introduction, Linear Mappings, Geometric linear transformation of 2 , Kernel and Image of a linear transformations,
+Matrix representation of linear transformations, Rank-Nullity Theorem(No proof), Singular and Nonsingular linear
+transformations, Invertible linear transformations.</b></a>
+                    <a href="#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 3:EIGENVALUES AND EIGENVECTORS <br>
+Introduction, Polynomials of Matrices, Characteristic polynomial, Cayley-Hamilton Theorem, eigenvalues and
+eigenvectors, eigen spaces of a linear transformation, Diagonalization, Minimal Polynomial, Characteristic and
+Minimal Polynomials of Block Matrices, Jordan Canonical form, Solving differential equations in Fundamental form.</b> </a>
+                    <a href="#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 4:INNER PRODUCT SPACES <br>
+Inner product, inner product spaces, length and orthogonality, orthogonal sets and Bases, projections, Gram-
+Schmidt process, QR-factorization, least squares problem and least square error.</b></a>
+                    <a href="#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 5:SYMMETRIC MATRICES AND QUADRATIC FORMS <br>
+Diagonalization of real symmetric matrices, Orthogonal diagonalization of real symmetric matrices, quadratic forms
+and its classifications, Singular value decomposition</b></a>
+                </div>
+                </div>
+            <div class="dropdown">
+                <button class="dropbtn" style="font-family: Montserrat Alternates;">Theoretical Foundations of Computations</button>
+                <div class="dropdown-content">
+                        <a href="#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 1:Introduction to Finite Automata<br>Introduction to Finite Automata, Central Concepts of Automata
+Theory, Deterministic Finite Automata (DFA), Nondeterministic
+Finite Automata (NFA), Finite Automata with Epsilon Transition,
+An Application Text Search.</b></a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 2:Regular Expressions and Languages<br>Regular Expressions, Finite Automata and Regular Expressions,
+Applications of Regular Expressions, Proving Languages Not to
+Be Regular, Closure Properties of Regular Languages,
+Equivalence and Minimization of Automata</b></a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 3:Context Free Grammars and Languages Parse Trees<br>Applications of Context Free Grammars, Applications of Context
+Free Grammars, Ambiguity in Grammars and Languages,
+Eliminating Useless Symbols, Computing the Generating and
+Reachable Symbols, Eliminating Epsilon Productions, Eliminating
+Unit Productions, Chomsky Normal Form</b></a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 4:Pushdown Automata<br>Definition of the Pushdown Automaton, The Languages of a PDA,
+Equivalence of PDA’s and CFG’s , Deterministic Pushdown
+Automata, The Pumping Lemma for Context Free Languages,
+Closure Properties of Context Free Languages</b></a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 5:Problems That Computers Cannot Solve<br>The Turing Machine, Programming Techniques for Turing
+Machines, Extensions to the Basic Turing Machine, Restricted
+Turing Machines, Turing Machines and Computers, Definition of
+Post’s Correspondence Problem, A Language That Is Not
+Recursively Enumerable, An Undecidable Problem That is RE
+Other Undecidable Problems</b></a>
+                    </div>
+                </div>
+            <div class="dropdown">
+                <button class="dropbtn" style="font-family: Montserrat Alternates;">Database Management Systems</button>
+                <div class="dropdown-content">
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 1:Introduction to Databases: Introduction, An Example,
+Characteristics of Database approach, Advantages of using
+                            DBMS approach, When not to use a DBMS<br>Database System Concepts and Architecture:Data models,
+Schemas and instances, Three schema architecture and data
+independence Database languages and interfaces, The database
+system environment,SQL:SQL Data Definition and Data Types specifying basic
+constraints in SQL, Basic retrieval queries in SQL, Insert,
+Delete and Update statements in SQL, Additional features of
+SQL ,More complex SQL Queries, Specifying Constraints as
+Assertions and Triggers, Views (Virtual Tables) in
+                            SQL,Schema Change Statement in SQL.</b></a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 2:Introducing Classes:<br> Class Fundamentals, Declaring Objects, Assigning Object
+Reference Variables, Introducing Methods, Constructors, The this Keyword,
+Garbage Collection, A Stack Class.
+A Closer Look at Methods and Classes: Overloading Methods, Using Objects as
+Parameters, A Closer Look at Argument Passing, Returning Objects, Introducing
+Access Control, Understanding static, Introducing final, Using Command-Line
+                            Arguments.</b></a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 3:Relational Data Model and Relational Database
+Constraints: Relational Model Concepts, Relational Model
+Constraints and Relational Database Schemas, Update
+Operations, Transactions and Dealing with Constraint
+Violations.
+Relational Algebra: Unary Relational Operations, SELECT
+and PROJECT, Relational Algebra Operations from Set Theory
+Binary Relational Operations: JOIN and DIVISION, Additional
+Relational Operations, Examples of Queries in Relational
+Algebra.</b></a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 4:Database Design Theory and Normalization:Informal
+Design Guidelines for Relation Schemas, Functional
+Dependencies, Normal Forms Based on Primary Keys, General
+Definitions of Second and Third Normal Forms, Boyce-Codd
+Normal Form, Multi-valued Dependencies and a Fourth Normal
+Form, Join Dependencies, Fifth Normal Form.</b></a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 5:Transaction Processing, Concurrency Control, and
+                            Recovery: Introduction to Transaction Processing, Transaction
+and System Concepts, Desirable Properties of Transactions,
+Characterizing Schedules Based on Recoverability,
+Characterizing Schedules Based on Serializability, Two-Phase
+Locking Techniques for Concurrency Control, Recovery
+Concepts ,NO-UNDO/REDO Recovery Techniques based on
+Deferred Update, Recovery Techniques Based on Immediate
+Update, Shadow Paging, The ARIES Recovery Algorithm.</b></a>
+                    </div>
+                </div>
+            <div class="dropdown">
+                <button class="dropbtn" style="font-family: Montserrat Alternates;">Analysis and Design of Algorithms</button>
+                <div class="dropdown-content">
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 1:Introduction: What is an Algorithm? Fundamentals of
+Algorithmic Problem Solving,
+Fundamentals of the Analysis of Algorithm Efficiency:
+The Analysis Framework, Asymptotic Notations and Basic
+Efficiency Classes, Mathematical Analysis of Nonrecursive
+                            Algorithm, Mathematical Analysis of Recursive Algorithms.</b></a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 2: Brute Force and Exhaustive Search: Selection Sort and
+Bubble Sort, Sequential Search and Brute-Force String
+Matching, Exhaustive Search, Depth-First Search and
+Breadth-First Search
+Decrease-and-Conquer: Insertion Sort, Topological Sorting,
+Algorithms for Generating Combinatorial Objects, Decreaseby-
+a-Constant-Factor Algorithms: Binary Search, Variable-
+Size-Decrease Algorithms: Computing Median and the
+                            Selection Problem</b></a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 3: Divide-and-Conquer: Mergesort, Quicksort, Multiplication
+of Large Integers and Strassen’s Matrix Multiplication
+Transform-and-Conquer: Presorting, Heaps and Heapsort,
+                            Horner’s Rule</b></a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 4:Dynamic Programming: Three Basic Examples, The
+Knapsack Problem [Without Memory Functions], Warshall’s
+and Floyd’s Algorithms
+Greedy Technique: Prim’s Algorithm, Kruskal’s Algorithm
+[Without disjoint subsets and Union Find algorithms],
+                            Dijkstra’s Algorithm</b></a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 5:Coping with the Limitations of Algorithm Power:
+Backtracking: n-Queens Problem, Subset-Sum Problem,
+Branch-and-Bound : Knapsack Problem, Traveling
+Salesman Problem
+NP-Completeness: Polynomial time, Polynomial-time
+verification, NP-completeness and reducibility, NP-Complete
+Problems: The clique problem, The vertex cover problem,
+                            Approximation Algorithms: The vertex-cover problem</b></a>
+                    </div>
+                </div>
+            <div class="dropdown">
+                <button class="dropbtn" style="font-family: Montserrat Alternates;">Operating Systems</button>
+                <div class="dropdown-content">
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 1:Introduction: What Operating Systems Do?, Computer System
+Architecture, Operating System Structure, Operating System
+Operations
+System Structures: User Operating system interface, system Calls,
+Types of System calls, System programs, Operating System
+Structure, System boot.
+Process Concept:
+Process Concept, Process Scheduling, Operations on Processes,
+                            Inter-process Communication.</b></a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 2:Multithreaded Programming: Overview, Multi-core
+Programming, Multithreading Models, Implicit Threading,
+Threading Issues.
+Process Scheduling: Basic concepts, Scheduling Criteria,
+Scheduling Algorithms. Thread Scheduling, Multiple-Processor
+                            Scheduling, Real-Time CPU Scheduling.</b></a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 3:Synchronization: Background, Critical Section Problem, Mutex
+locks, Semaphores, Classic Problems of Synchronization.
+Deadlocks: System Model, Deadlock characterization, Methods for
+handling deadlocks, Deadlock prevention, Deadlock avoidance,
+                            Deadlock Detection and Recovery from deadlock.</b></a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 4:Memory management strategies :Background, Swapping,
+Contiguous Memory Allocation, Segmentation, Paging, Structure of
+Page Table
+Virtual Memory Management: Background, Demand paging,
+Copy on write, Page replacement algorithms, Allocation of frames,
+                            Thrashing.</b></a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 5:Implementing File-system: File-System Structure, File-System
+Implementation, Directory Implementation, Allocation methods,
+Free-space management.
+Mass-storage structure: Disk Structure, Disk Attachment, Disk
+Scheduling.
+System Protection: Goals of Protection, Principles of Protection,
+Domain of Protection, Access Matrix, Implementation of Access
+                            Matrix.</b></a>
+                    </div>
+                </div>
+            <div class="dropdown">
+                <button class="dropbtn" style="font-family: Montserrat Alternates;">Logic Design</button>
+                <div class="dropdown-content">
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 1:Introduction to Indian Constitution [03 hours]
+Historical Background of the Indian Constitution. Framing of the Indian constitution: Role of the Constituent
+Assembly - Preamble and Salient features of the Constitution of India, Fundamental Rights and its limitations.
+Fundamental Duties and their significance. Directive Principles of State Policy: Importance and its relevance.
+                            Case Studie</b></a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 2:Union Executive and State Executive [02 hours]
+The Union Executive – The President and The Vice President, The Prime Minister and The Council of
+Ministers.The Union Parliament –LokSabha&RajyaSabha.
+The Supreme Court of India.
+State Executive – The Governors, The Chief Ministers and The Council of Ministers. The State Legislature –
+                            Legislative Assembly and Legislative Council. State High Courts.</b></a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 3</b>:Flip- Flops: RS Flip-Flops, Gated Flip-Flops, Edge-triggered
+RS FLIP-FLOP, Edge-triggered D FLIP-FLOPs, Edgetriggered
+JK FLIPFLOPs.
+Flip- Flops: FLIP-FLOP Timing, JK Master-slave FLIP-FLOP,
+Switch Contact Bounce Circuits, Various Representation of
+FLIP-FLOPs, HDL Implementation of FLIP-FLOP.
+Registers: Types of Registers, Serial In - Serial Out, Serial In -
+Parallel out, Parallel In -Serial Out, Parallel In - Parallel Out,
+Universal Shift Register, Applications of Shift Registers,
+Register implementation in HDL.</a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 4</b>:Counters: Asynchronous Counters, Decoding Gates,
+Synchronous Counters, Changing the Counter Modulus.
+Counters: Decade Counters, Presettable Counters, Counter
+Design as a Synthesis problem,
+A Digital Clock, Counter Design using HDL.</a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 5</b>:Design of Sequential Circuit: Model Selection, State
+Transition Diagram, State Synthesis Table, Design Equations
+and Circuit Diagram, Implementation using Read Only
+Memory, Algorithmic State Machine, State Reduction
+Technique, Analysis of Asynchronous Sequential Circuit,
+Problems with Asynchronous Sequential Circuits, Design of
+Asynchronous Sequential Circuit</a>
+                    </div>
+                </div>
+            <div class="dropdown">
+                <button class="dropbtn" style="font-family: Montserrat Alternates;">Environmental Studies</button>
+                <div class="dropdown-content">
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 1</b>:Introduction to Environment:
+Definition about Earth, atmosphere, hydrosphere, lithosphere and biosphere.
+Structure of Atmosphere: Troposphere, Stratosphere, Mesosphere, Ionosphere, Exosphere.
+Internal structure of the Earth: Crust, Mantle, Core.
+Ecosystem, types of Ecosystem: Land, Forest, Water, Desert, Marine.
+Effects of Human activities on Environment: Agriculture, Housing, Industries, Mining and
+Transportation.</a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 2</b>:Natural Resources:
+Water resources: availability, use and consequences of over utilisation, water conflicts.
+Case studies
+Mineral resources: Definition, types, environmental impact of mining
+Forest resources: Uses, effects of deforestation, remedial measures
+Energy resources: renewable and non-renewable, growing needs, types of energy resources: hydroelectric, wind power,
+fossil, solar, nuclear and bio gas.
+Hydrogen as an alternate future source of energy</a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 3</b>:Environmental pollution:
+                            Introduction, causes, effects and control measures.
+Water pollution, land pollution, noise pollution, air pollution and marine pollution-case studies.
+Environmental management: Solid waste, hazardous waste, e-waste, bio medical waste</a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;"><b>UNIT 4</b>:Social issues and Environment
+Population growth.
+Climatic changes: Global warming, acid rain, ozone layer depletion.
+Water conversation: rain water harvesting and ground water recharging.
+Disaster management: floods, earthquakes, landslides-case studies
+Environmental Protection Acts: Air, Water, land and Noise (Prevention and Control of pollution), Forest conservation,
+Wildlife protection. 04 Hrs</a>
+                    </div>
+                </div>
+            <div class="dropdown">
+                <button class="dropbtn" style="font-family: Montserrat Alternates;">Project Work-1</button>
+                <div class="dropdown-content">
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;">Website based Application Development - Only Front End: Under this project work, student should develop
+front end for the websites of any chosen topic. Students can form a group with minimum of two and maximum
+of four.</a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;">Teacher allotted for project work to students should teach students front end web technologies such as HTML,
+CSS, Java Script and basics of PHP (Sessions/Cookies Management) during Class/Lab hours as per the
+                            allotment.</a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;">Teacher allotted for project work should guide the students in choosing the topic and towards carrying out
+project work and complete the evaluation of assigned students.</a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;">The evaluation of project work will be based on the rubrics set by the department under the committee of
+HOD, UG NBA coordinator, One professor, One Associate professor and One Assistant Professor.</a>
+                    </div>
+                </div>
+            <div class="dropdown">
+                <button class="dropbtn" style="font-family: Montserrat Alternates;">Physical Activity (Sports/ Yoga Etc.)</button>
+                <div class="dropdown-content">
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;">Student can participate in any of the physical activities such as Sports, Marathon, Yoga conducted by college
+or any organization.</a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;">Student should produce participation certificate for clearing this mandatory course.</a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;">Note: If student is unable to participate in outside physical activities then department Head should take care of
+conducting Yoga and Meditation of one or two day event in the college</a>
+                        <a href:"#" style="font-family:'Amatic SC';font-size: 20px;">Physically challenged students can produce participation certificate of any technical/cultural events conducted
+by college/department clubs.</a>
+                    </div>
+                </div>
+            
+            </div>
+                <br>
+                <br>
+                <br>
+            <center><table style="background-color: rgba(0, 0, 0, 0.6);border: 1px solid black;width:95%;height:150px; border-radius: 12px;padding:21px;">
+                <div id="contactus"></div>
+                    <tr>
+                    <td style="font-family:Amatic SC;font-size: 70px;text-align:center;color:white;">CONTACT US</td>
+                    <td style="font-family:'Bellota'; font-size:16px;color: rgb(98, 109, 119) ;text-align: center;">+915446632854<br>+911496523485<br>+914662589931<br>+914110025679</td>
+                    <td style="font-family:'Bellota'; font-size:16px;color: rgb(98, 109, 119) ;text-align: center;">mallika.cs19@bmsce.ac.in<br>
+                    nayana.cs19@bmsce.ac.in<br>likithab.cs19@bmsce.ac.in<br>kusummr.cs19@bmsce.ac.in</td>
+                    </tr>
+                </table></center>
+                <br>
+                <br>
+
+            
+                
+        </body>
+
+</html>
