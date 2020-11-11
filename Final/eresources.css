@@ -41,6 +41,15 @@ color: white;
     font-family: Montserrat Alternates;
     font-size: 60px;
 }
+h2 {
+  color: white;
+      text-align: center;
+    margin-top: 0px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+      font-family: Montserrat Alternates;
+      font-size: 40px;
+  }
 .display-container {
   background-color: rgb(0,0,0,0.5);
     padding-top: 0px;
