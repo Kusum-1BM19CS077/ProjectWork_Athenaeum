@@ -2,6 +2,9 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Montserrat Alternates' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Bellota' rel='stylesheet'>
 <style>
 html {
   box-sizing: border-box;
@@ -24,12 +27,12 @@ html {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
 }
 
 .container {
-  padding: 0 16px;
-  background-color: #DEB887;
+  background:rgba(0, 0, 0, 0.24);
+  height:20vh;
 }
 
 .container::after, .row::after {
@@ -37,47 +40,163 @@ html {
   clear: both;
   display: table;
   width:50%;
-  background-color: #556B2F;
+  
 }
 
 .title {
   color: grey;
 }
+.top{
+    margin-top: 40px;
+    margin-right:40px;
+    color:white;
+    font-size:23px;
+    float:right;
+    font-family:'Amatic SC';
+    font-style: italic;
+}
+.name{
+    margin-top: 10px;
+    font-size: 70px;
+    color:white;
+font-family: Amatic SC;
+}
+.name2{
+    font-size: 20px;
+    color:white;
+font-family: Amatic SC;
+margin-top: 0px;
+margin-left: 1px;
+}
+h1 {
+color: white;
+text-align: center;
+  margin-top: 0px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+    font-family: Montserrat Alternates;
+    font-size: 50px;
+}
+h3 {
+  color: white;
+      text-align: center;
+    margin-top: 0px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+      font-family: Montserrat Alternates;
+      font-size: 40px;
+  }
+  h2 {
+  color: white;
+      text-align: center;
+    margin-top: 0px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+      font-family: Montserrat Alternates;
+      font-size: 20px;
+  }
+  .topic {
+  background-color:rgba(0, 0, 0, 0.24);
+  border: 1px solid black;
+  border-radius: 12px;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+    font-family: 'Arial';
+  cursor: pointer;
+    align-self: center;
+    width: 450px;
+    font-family: Montserrat Alternates
+
+}
+.for {  
+    font-family: Amatic SC;
+    color: white;  
+    font-size: 25px;
+  float: left;    
+  padding-left: 20px;
+  margin-top: 6px;    
+}    
+.for2 {  
+    font-family: Bellota;
+    color: white;  
+    font-size: 15px;
+  float: left;    
+      
+     
+}    
 
 </style>
 </head>
 <body>
+ 
+    <div class="top">
+        <p><a href="#contactus" style="color:white;text-decoration: none; padding-right: 23px;">CONTACT US</a>
+          <a href="login.html" style="color:white;text-decoration: none;padding-right: 23px;">LOGOUT</a>
+          <a href="homepage.html" style="color:white;text-decoration: none;padding-right: 23px;">BACK TO HOMEPAGE</a></p>
+    </div>
+    <div class="name">
+        <p style="font-family:'Amatic SC';padding: 0px; margin: 0px;">Athenaeum</p>
+        <p class="name2">BMSCE's Official Online Virtual Library</p>
+    </div>
+    <br>
 
-<h1><u>WELCOME TO THE BOOK EXCHANGE CENTER FOR THIRD SEMESTER</u></h1>
-<h2>STATISTICS AND DISCRETE MATHEMATICS:</h2>
+<h1>Welcome to the <i>Book Exchange</i> Center</h1><br>
+<h3>Sem III</h3>
+<center>
+<br>
+<br>
+<br>
+<br>
+<h2 class="topic">Statistics And Discrete Mathematics:</h2>
 <br>
 
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="book4.jpg" alt="Jane" style="width:100%">
+      <img src="book4.jpg" alt="Jane" style="width:100%" >
       <div class="container">
-        <h2>VARSHINI T</h2>
-        <p>Currently studying in sixth semester.</p>
-        <p>CONTACT HER @ varshinithakur@bmsce.ac.in</p>
+        <p class="for">VARSHINI T</p>
+        <div class="for2">
+        <p>Currently studying in sixth semester.
+        CONTACT HER @ <a style="text-decoration:none;color:white;" href="mailto:varshinithakur@bmsce.ac.in" target="_blank">varshinithakur@bmsce.ac.in</a></p>
         </div>
+        </div>
+       
     </div>
   </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="book4.jpg" alt="Jane" style="width:100%" >
+        <div class="container">
+          <p class="for">AASTHA</p>
+          <div class="for2">
+          <p>Currently studying in seventh semester.
+          CONTACT HER @ aasthavimal@bmsce.ac.in</p>
+          </div>
+          </div>
+         
+      </div>
+    </div>
 
   <div class="column">
     <div class="card">
       <img src="book1.jpg" alt="Mike" style="width:100%">
       <div class="container">
-        <h2>BHUSHAN K</h2>
-        <p>Currently studying in fourth semester</p>
-        <p>CONTACT HIM @ bhushankoti@bmsce.ac.in</p>
+        <p class="for">BHUSHAN K</p>
+        <div class="for2">
+        <p>Currently studying in fourth semester
+        CONTACT HIM @ bhushankoti@bmsce.ac.in</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-
-<h2>MICROPROCESSOR AND MICROCONTROLLERS:</h2>
+<br><br>
+<h2 class="topic">Microprocessor And Microcontrollers:</h2>
 <br>
 
 <div class="row">
@@ -85,9 +204,11 @@ html {
     <div class="card">
       <img src="book1.jpg" alt="Jane" style="width:100%">
       <div class="container">
-        <h2>RITHWIJ V</h2>
-        <p>Currently studying in fifth semester.</p>
-        <p>CONTACT HIM @ rithwij12@bmsce.ac.in</p>
+        <p class="for">RITHWIJ V</p>
+        <div class="for2">
+        <p>Currently studying in fifth semester.
+        CONTACT HIM @ rithwij12@bmsce.ac.in</p>
+        </div>
         </div>
     </div>
   </div>
@@ -96,16 +217,18 @@ html {
     <div class="card">
       <img src="book1.jpg" alt="Mike" style="width:100%">
       <div class="container">
-        <h2>AARUSH B</h2>
-        <p>Currently studying in fifth semester</p>
-        <p>CONTACT HIM @ aarush@bmsce.ac.in</p>
+        <p class="for">AARUSH B</p>
+        <div class="for2">
+        <p>Currently studying in fifth semester
+      CONTACT HIM @ aarush@bmsce.ac.in</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-
-  <h2>OBJECT ORIENTED JAVA PROGRAMMING:</h2>
+<br><br>
+  <h2 class="topic">Object oriented java programming:</h2>
 <br>
 
 <div class="row">
@@ -113,9 +236,11 @@ html {
     <div class="card">
       <img src="book4.jpg" alt="Jane" style="width:100%">
       <div class="container">
-        <h2>DHRUTHI V KUMAR</h2>
-        <p>Currently studying in fifth semester.</p>
-        <p>CONTACT HER @ dhurthikumar@bmsce.ac.in</p>
+        <p class="for">DHRUTHI V KUMAR</p>
+        <div class="for2">
+        <p>Currently studying in fifth semester.
+       CONTACT HER @ dhurthikumar@bmsce.ac.in</p>
+        </div>
         </div>
     </div>
   </div>
@@ -124,16 +249,18 @@ html {
     <div class="card">
       <img src="book4.jpg" alt="Mike" style="width:100%">
       <div class="container">
-        <h2>DEEPA HARISH</h2>
-        <p>Currently studying in fifth semester</p>
-        <p>CONTACT HER @ deepah@bmsce.ac.in</p>
+        <p class="for">DEEPA HARISH</p>
+        <div class="for2">
+        <p>Currently studying in fifth semester
+      CONTACT HER @ deepah@bmsce.ac.in</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-
-<h2>DATA STRUCTURES:</h2>
+<br><br>
+<h2 class="topic">Data structures:</h2>
 <br>
 
 <div class="row">
@@ -141,27 +268,46 @@ html {
     <div class="card">
       <img src="book1.jpg" alt="Jane" style="width:100%">
       <div class="container">
-        <h2>HITESH M</h2>
-        <p>Currently studying in fifth semester.</p>
-        <p>CONTACT HIM @ hithesh@bmsce.ac.in</p>
+        <p class="for">HITESH M</p>
+        <div class="for2">
+        <p>Currently studying in fifth semester.
+        CONTACT HIM @ hithesh@bmsce.ac.in</p>
+        </div>
         </div>
     </div>
   </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="book4.jpg" alt="Jane" style="width:100%" >
+        <div class="container">
+          <p class="for">JASMINE</p>
+          <div class="for2">
+          <p>Currently studying in sixth semester.
+          CONTACT HER @ jasmine@bmsce.ac.in</p>
+          </div>
+          </div>
+         
+      </div>
+    </div>
 
   <div class="column">
     <div class="card">
       <img src="book1.jpg" alt="Mike" style="width:100%">
       <div class="container">
-        <h2>ISHAAN K</h2>
-        <p>Currently studying in fifth semester</p>
-        <p>CONTACT HIM @ ishaank@bmsce.ac.in</p>
+        <p class="for">ISHAAN K</p> 
+        <div class="for2">
+        <p>Currently studying in fifth semester
+        CONTACT HIM @ ishaank@bmsce.ac.in</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-
-<h2>COMPUTER ORGANISATION:</h2>
+<br><br>
+<h2 class="topic">Computer organization:</h2>
 <br>
 
 <div class="row">
@@ -169,9 +315,11 @@ html {
     <div class="card">
       <img src="book4.jpg" alt="Jane" style="width:100%">
       <div class="container">
-        <h2>FALAK AGARWAL</h2>
-        <p>Currently studying in fifth semester.</p>
-        <p>CONTACT HER @ falak@bmsce.ac.in</p>
+        <p class="for">FALAK AGARWAL</p> 
+        <div class="for2">
+        <p>Currently studying in fifth semester.
+        CONTACT HER @ falak@bmsce.ac.in</p>
+        </div>
         </div>
     </div>
   </div>
@@ -180,17 +328,19 @@ html {
     <div class="card">
       <img src="book1.jpg" alt="Mike" style="width:100%">
       <div class="container">
-        <h2>KARAN P</h2>
-        <p>Currently studying in fifth semester</p>
-        <p>CONTACT HIM @ karan09bmsce.ac.in</p>
+        <p class="for">KARAN P</p>
+        <div class="for2">
+        <p>Currently studying in fifth semester
+        CONTACT HIM @ karan09bmsce.ac.in</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
 
-
-<h2>LOGIC DESIGN:</h2>
+<br><br>
+<h2 class="topic">Logic design:</h2>
 <br>
 
 <div class="row">
@@ -198,29 +348,45 @@ html {
     <div class="card">
       <img src="book1.jpg" alt="Jane" style="width:100%">
       <div class="container">
-        <h2>LOHIT R</h2>
-        <p>Currently studying in fifth semester.</p>
-        <p>CONTACT HIM @ lohitr@bmsce.ac.in</p>
+        <p class="for">LOHIT R</p>
+        <div class="for2">
+        <p>Currently studying in fifth semester.
+        CONTACT HIM @ lohitr@bmsce.ac.in</p>
+        </div>
         </div>
     </div>  
   </div>
 </div>
-
-  <h2>ENVIRONMENTAL STUDIES:</h2>
+<br><br>
+  <h2 class="topic">Environmental studies:</h2>
 <br>
 <div class="row">
   <div class="column">
     <div class="card">
       <img src="book4.jpg" alt="Jane" style="width:100%">
       <div class="container">
-        <h2>KAVYA M</h2>
-        <p>Currently studying in fifth semester.</p>
-        <p>CONTACT HER @ kavyamahesh@bmsce.ac.in</p>
+        <p class="for">KAVYA M</p>
+        <div class="for2">
+        <p>Currently studying in fifth semester.
+        CONTACT HER @ kavyamahesh@bmsce.ac.in</p>
+        </div>
         </div>
     </div>
   </div>
 </div>
-</div>
+</div><br><br>
+<table style="background-color: rgba(0, 0, 0, 0.6);border: 1px solid black;width:100%;height:30%; border-radius: 12px;padding:21px;">
+  <div id="contactus"></div>
+      <tr>
+      <td style="font-family:Amatic SC;font-size: 70px;text-align:center;color:white;">CONTACT US</td>
+      <td style="font-family:'Bellota'; font-size:16px;color: rgb(98, 109, 119) ;text-align: center;">+915446632854<br>+911496523485<br>+914662589931<br>+914110025679</td>
+      <td style="font-family:'Bellota'; font-size:16px;color: rgb(98, 109, 119) ;text-align: center;">mallika.cs19@bmsce.ac.in<br>
+      nayana.cs19@bmsce.ac.in<br>likithab.cs19@bmsce.ac.in<br>kusum.cs19@bmsce.ac.in</td>
+      </tr>
+  </table>
+  <br>
+  <br>
+</center>
 </body>
 </html>
 
@@ -228,212 +394,3 @@ html {
 
 
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-html {
-  box-sizing: border-box;
-  background-color: #DEB887;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-  padding-right:20px;
-  padding-left: 75px;
-}
-
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.container {
-  padding: 0 16px;
-  background-color: #DEB887;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-  width:50%;
-  background-color: #556B2F;
-}
-
-.title {
-  color: grey;
-}
-
-</style>
-</head>
-<body>
-
-<h1><u>WELCOME TO THE BOOK EXCHANGE CENTER FOR FOURTH SEMESTER</u></h1>
-<h2>LINEAR ALGEBRA:</h2>
-<br>
-
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="book2.jpg" alt="Jane" style="width:100%">
-      <div class="container">
-        <h2>HARINI K</h2>
-        <p>Currently studying in fifth semester.</p>
-        <p>CONTACT HER @ harinikumar@bmsce.ac.in</p>
-        </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="book2.jpg" alt="Mike" style="width:100%">
-      <div class="container">
-        <h2>SUSHMITHA P</h2>
-        <p>Currently studying in fifth semester</p>
-        <p>CONTACT HER @ sushmithapawan@bmsce.ac.in</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<h2>DATABASE MANAGEMENT SYSTEM:</h2>
-<br>
-
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="book3.jpg" alt="Jane" style="width:100%">
-      <div class="container">
-        <h2>ABHISHEK A</h2>
-        <p>Currently studying in fifth semester.</p>
-        <p>CONTACT HIM @ abhisheka@bmsce.ac.in</p>
-        </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="book3.jpg" alt="Mike" style="width:100%">
-      <div class="container">
-        <h2>PRADEEP PRAKASH</h2>
-        <p>Currently studying in fifth semester</p>
-        <p>CONTACT HIM @ pradeepprakash2@bmsce.ac.in</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-  <h2>THEORETICAL FOUNDATION OF COMPUTATIONS:</h2>
-<br>
-
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="book3.jpg" alt="Jane" style="width:100%">
-      <div class="container">
-        <h2>NITISH S</h2>
-        <p>Currently studying in fifth semester.</p>
-        <p>CONTACT HIM @ nitishs@bmsce.ac.in</p>
-        </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="book2.jpg" alt="Mike" style="width:100%">
-      <div class="container">
-        <h2>CHANDANA GOWDA</h2>
-        <p>Currently studying in fifth semester</p>
-        <p>CONTACT HER @ chandanag@bmsce.ac.in</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<h2>ANALYSIS AND DESIGN OF ALGORITHMS:</h2>
-<br>
-
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="book3.jpg" alt="Jane" style="width:100%">
-      <div class="container">
-        <h2>ARYAN S</h2>
-        <p>Currently studying in fifth semester.</p>
-        <p>CONTACT HIM @ aryanshah@bmsce.ac.in</p>
-        </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="book3.jpg" alt="Mike" style="width:100%">
-      <div class="container">
-        <h2>GAURAV R</h2>
-        <p>Currently studying in fifth semester</p>
-        <p>CONTACT HIM @ gauravram@bmsce.ac.in</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<h2>OPERATING SYSTEMS:</h2>
-<br>
-
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="book2.jpg" alt="Jane" style="width:100%">
-      <div class="container">
-        <h2>HARSHITHA J</h2>
-        <p>Currently studying in fifth semester.</p>
-        <p>CONTACT HER @ harshithaj@bmsce.ac.in</p>
-        </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="book3.jpg" alt="Mike" style="width:100%">
-      <div class="container">
-        <h2>KISHAN B</h2>
-        <p>Currently studying in fifth semester</p>
-        <p>CONTACT HIM @ kishanbharadwaj@bmsce.ac.in</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<h2>CONSTITUTION OF INDIA:</h2>
-<br>
-
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="book3.jpg" alt="Jane" style="width:100%">
-      <div class="container">
-        <h2>HRUDAY S</h2>
-        <p>Currently studying in fifth semester.</p>
-        <p>CONTACT HIM @ hrudays@bmsce.ac.in</p>
-        </div>
-    </div>
-  </div>
-
-
-
-</body>
-</html>
