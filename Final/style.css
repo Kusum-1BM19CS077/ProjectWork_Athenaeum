@@ -1,0 +1,116 @@
+*{
+    margin: 3px;
+    padding: 10px;
+}
+body{
+    background: url(lib4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.loginbox{
+    background:rgba(0,0,0,.356);
+    width:380px;
+    padding: 11px;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    right:11%;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.loginbox h1{
+    color: white;
+    float:center;
+    font-size: 34px;
+    margin-bottom: 21px;
+    font-family: 'Amatic SC';
+
+}
+
+.form-control{
+    color:white;
+    margin-top: 1px;
+    text-align: left;
+    font-size: 19px;
+    height: 41px;
+    background:transparent;
+    border-radius:0px;
+    border:0px;
+    border-bottom: 1px solid white;
+    
+    
+}
+.text{
+    color:white;
+    font-size: 19px;
+    font-style: italic;
+}
+.btn{
+    color:white;
+    background: transparent;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Montserrat Alternates;
+    border-radius: 12px;
+
+}
+
+.btn2{
+    color:white;
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 10px;
+    text-align: center;
+    font-family: Montserrat Alternates;
+    border-radius: 12px;
+}
+
+
+.name{
+    font-size: 110px;
+    color:white;
+    margin-top:160px;
+    margin-left:13px;
+    font-style:normal ;
+    
+}
+
+.name2{
+    font-size:26px;
+    color:white;
+    margin-top:11px;
+    margin-left:21px;
+    font-style: italic;
+    font-family:'Amatic SC';
+}
+
+.top{
+    
+    margin-right:17%;
+    color:white;
+    font-size:21px;
+    float:right;
+    font-family:'Amatic SC';
+    font-style: italic;
+}
+
+.signupbox{
+    background:rgba(0,0,0,.356);
+    width:380px;
+    padding: 11px;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    right:11%;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.signupbox h1{
+    color: white;
+    float:center;
+    font-size: 34px;
+    font-family: 'Amatic SC';
+}
+
