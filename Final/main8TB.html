@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+        <title>VIII-SEMESTER Text-books</title>
+      <link rel="stylesheet" href="main3TB.css"/>
+      <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Montserrat Alternates' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Bellota' rel='stylesheet'>
+        <div class="top">
+          <p><a href="homepage.html" style="color:white;text-decoration: none;padding-right: 23px;">BACK TO HOMEPAGE</a>
+            <a href="#contactus" style="color:white;text-decoration: none; padding-right: 23px;">CONTACT US</a>
+            <a href="login.html" style="color:white;text-decoration: none;padding-right: 23px;">LOGOUT</a></p>
+          
+      </div>
+      <div class="popup">
+      
+      <button onclick="myFunction()">Recommend any books</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  var person = prompt("Please enter your recommended book", "Book name");
+  if (person == null || person == "") {
+    txt = " No books suggested. Come back later if you have any.";
+  } else {
+    txt = "Book " + person + " added to the list.Thank you for your suggestion.";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+      </div>
+  <div class="heading">
+        <div class="allignleft"><img src="logo.png" height=110px width=100px></div>
+        <div class="name">
+        <p>Athenaeum</p>
+        <p class="name2">BMSCE's Official Online Virtual Library</p>
+    </div>
+      </div>
+      
+<br><br><br>
+  <h1 >Available Text-books</h1>
+  <br>
+  <br>
+  <header>
+    
+
+<div class="display-container">
+  <img class="mySlides" src="slide5.jpg">
+  <img class="mySlides" src="slide1.jpg">
+  <img class="mySlides" src="slide3.jpg">
+  <img class="mySlides" src="slide4.jpg">
+ 
+  <button class="display-left" onclick="plusDivs(-1)" >&#10094;</button>
+  <button class="display-right" onclick="plusDivs(1)" style="float:right">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+</header>
+  </head>
+<body>
+    <br>
+    <br>
+    <br>
+<div class="sidenav">
+         <p style="color: white; font-size: 30px;text-align: center;font-family:Montserrat Alternates ;font-style: italic;"> Pick to explore: </p>
+        <br><br><br>
+         <a href="main8syllabus.html" style="font-size: 21px;;" >~Syllabus</a> <br><br>
+        <a href="main8TB.html" style="font-size: 21px;">~TextBooks</a> <br><br>
+        <a href="main8RB.html" style="font-size: 21px;">~Recommended Books</a> <br><br>
+        <a href="" style="font-size: 21px;">~E-Resources</a><br><br>
+        <a href="" style="font-size: 21px; font-style: italic;">~BOOK EXCHANGE</a>
+        </div>
+
+        <div style="padding-left: 190px;">
+
+        <div class="dropdown">
+                <button class="dropbtn" style="font-family: Montserrat Alternates;">Programming In Python</button>
+                <div class="dropdown-content">
+                    <table class="tr1" style="width:100%">
+  <tr style="font-family:'Amatic SC';font-size: 20px;">
+    <th>Sl.no</th>
+    <th style="font-size: 25px;">Name of the Book</th>
+    <th>Number of books available</th>
+  </tr>
+    <tr>
+    <td>1.</td>
+    <td>Learning to Program using Python by Cody Jackson, Second Edition, 2014.</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>2.</td>
+    <td>Python Programming, Michael DAWSON, 3rd Edition, Course technology PTR, 2010</td>
+    <td>7</td>
+  </tr>
+</table>
+                </div>
+              </div>
+          <div class="dropdown">
+              <button class="dropbtn" style="font-family: Montserrat Alternates;">Internet of Things</button>
+              <div class="dropdown-content">
+                  <table class="tr1" style="width:100%">
+  <tr style="font-family:'Amatic SC';font-size: 20px;">
+    <th>Sl.no</th>
+    <th style="font-size: 25px;">Name of the Book</th>
+    <th>Number of books available</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td>Internet of Things - A Hands-on Approach, Arshdeep Bahga and Vijay Madisetti, Universities Press, 2015.</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>2.</td>
+    <td>Julien Bayle, C Programming for Arduino, PACKT Publishing 2013</td>
+    <td>11</td>
+  </tr>
+   <tr>
+    <td>3.</td>
+    <td>Jean-Philippe Vasseur, Adam Dunkels, “Interconnecting Smart Objects with IP”, 2010</td>
+    <td>11</td>
+</tr>
+</table>
+              </div>
+              </div>
+          <div class="dropdown">
+              <button class="dropbtn" style="font-family: Montserrat Alternates;">Semantic Web</button>
+              <div class="dropdown-content">
+                  <table class="tr1" style="width:100%">
+  <tr style="font-family:'Amatic SC';font-size: 20px;">
+    <th>Sl.no</th>
+    <th style="font-size: 25px;">Name of the Book</th>
+    <th>Number of books available</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td>Liyang Yu, A Developer’s Guide to the Semantic Web, Springer; 1st Edition. Edition,
+2011.</td>
+    <td>10</td>
+  </tr>
+                      <tr>
+    <td>2.</td>
+    <td>John Hebeler, Matthew Fisher, Ryan Blace and Andrew Perez-Lopez, Semantic Web
+Programming, Wiley; 1 edition, 2009.</td>
+    <td>9</td>
+  </tr>
+                      <tr>
+    <td>3.</td>
+    <td>Grigoris Antoniou, Frank van Harmelen, A Semantic Web Primer, Second Edition
+(Cooperative Information Systems) (Hardcover), MIT Press, 2008</td>
+    <td>6</td>
+  </tr>
+                      <tr>
+    <td>4.</td>
+    <td>Robert M. Colomb, Ontology and the Semantic Web: Volume 156 Frontiers in Artificial
+Intelligence and Applications (Frontier in Artificial Intelligence and Applications), IOS
+Press, 2007.</td>
+    <td>12</td>
+  </tr>
+                      <tr>
+    <td>5.</td>
+    <td>Dean Allemang and James Hendler, Semantic Web for the Working Ontologist: Effective
+Modeling in RDFS and OWL, Morgan Kaufmann; 2 edition, 2011.</td>
+    <td>8</td>
+  </tr>
+</table>
+              </div>
+              </div>
+          <div class="dropdown">
+              <button class="dropbtn" style="font-family: Montserrat Alternates;">Green Computing</button>
+              <div class="dropdown-content">
+                  <table class="tr1" style="width:100%">
+  <tr style="font-family:'Amatic SC';font-size: 20px;">
+    <th>Sl.no</th>
+    <th style="font-size: 25px;">Name of the Book</th>
+    <th>Number of books available</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td>BhuvanUnhelkar, “Green IT Strategies and Applications-Using Environmental Intelligence”, CRC Press, June 2011</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>2.</td>
+    <td>Woody Leonhard, Katherrine Murray, “Green Home computing for dummies”, August 2009.</td>
+    <td>7</td>
+  </tr>
+</table>
+              </div>
+              </div>
+          <div class="dropdown">
+              <button class="dropbtn" style="font-family: Montserrat Alternates;">Project Phase-1</button>
+              <div class="dropdown-content">
+                  <table class="tr1" style="width:100%">
+  <tr style="font-family:'Amatic SC';font-size: 20px;">
+    <th>Sl.no</th>
+    <th style="font-size: 25px;">Name of the Book</th>
+    <th>Number of books available</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td>Planning and Implementing your Final Year Project — with Success!</td>
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>2.</td>
+    <td>Thesis Projects
+A Guide for Students in Computer Science and Information Systems</td>
+    <td>9</td>
+  </tr>
+</table>
+              </div>
+              </div>
+          <div class="dropdown">
+              <button class="dropbtn" style="font-family: Montserrat Alternates;">Project Phase-2</button>
+              <div class="dropdown-content">
+                  <table class="tr1" style="width:100%">
+  <tr style="font-family:'Amatic SC';font-size: 20px;">
+    <th>Sl.no</th>
+    <th style="font-size: 25px;">Name of the Book</th>
+    <th>Number of books available</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td>Contemporary Empirical Methods in Software Engineering</td>
+    <td>11</td>
+  </tr>
+  <tr>
+    <td>2.</td>
+    <td>Tackling A Level Projects in Computer Science AQA 7517 Paperback – Import, 30 January 2020
+by PG Online </td>
+    <td>13</td>
+  </tr>
+   <tr>
+    <td>3.</td>
+    <td>Computer Security: Principles and Practice 4th Edition
+by William Stallings  (Author), Lawrie Brown (Author)</td>
+    <td>9</td>
+  </tr>
+</table>
+              </div>
+              </div>
+          
+             </div>
+    
+
+              <br>
+              <br>
+              <br>
+    <br>
+              <br>
+              <br>
+    <br>
+              <br>
+              <br>
+    <br>
+              <br>
+            
+              <center><table style="background-color: rgba(0, 0, 0, 0.6);border: 1px solid black;width:95%;height:150px; border-radius: 12px;padding:21px;">
+                <div id="contactus"></div>
+                    <tr>
+                    <td style="font-family:Amatic SC;font-size: 70px;text-align:center;color:white;">CONTACT US</td>
+                    <td style="font-family:'Bellota'; font-size:16px;color: rgb(98, 109, 119) ;text-align: center;">+915446632854<br>+911496523485<br>+914662589931<br>+914110025679</td>
+                    <td style="font-family:'Bellota'; font-size:16px;color: rgb(98, 109, 119) ;text-align: center;">mallika.cs19@bmsce.ac.in<br>
+                    nayana.cs19@bmsce.ac.in<br>likithab.cs19@bmsce.ac.in<br>kusummr.cs19@bmsce.ac.in</td>
+                    </tr>
+                </table></center>
+                <br>
+                <br>
+
+
+  </body>
+  
+</html>
