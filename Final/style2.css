@@ -36,6 +36,10 @@ body{
     border-radius: 12px;
 }
 
+.btn:hover{
+    background: rgba(235, 228, 228, 0.411);
+}
+
 .btn2{
     color:white;
     background: rgba(0, 0, 0, 0.24);
@@ -46,6 +50,26 @@ body{
     padding: 30px;
     font-style: italic;
     border-radius: 12px;
+}
+
+.btn2:hover{
+    background: rgba(0, 0, 0, 0.404);
+}
+
+.btn3{
+    color:white;
+    background: rgba(0, 0, 0, 0.24);
+    border: 1px solid rgb(12, 12, 12);
+    margin-top: 10px;
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    padding: 30px;
+    font-style: italic;
+    border-radius: 12px;
+}
+
+.btn3:hover{
+    background: rgba(0, 0, 0, 0.404);
 }
 
 .top{
@@ -75,6 +99,14 @@ body{
     color: white;
     text-align: center;
     margin-top: 90px;
+}
+
+.line2{
+    font-family: Bellota;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .rev1{
@@ -130,6 +162,10 @@ body{
     border-radius: 12px;
     text-decoration: none;
    
+    }
+
+    .feedback:hover{
+        background: rgba(235, 228, 228, 0.411);
     }
 
 .sticky {
