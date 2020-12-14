@@ -10,42 +10,315 @@
         
         <title>LOGIN</title>
         </head>
+
+        <SCRIPT type="text/javascript">
+
+            function validate() {
+            var form=document.getElementById("form").value;
+            var row1=document.getElementById("row1").value;
+            var row2=document.getElementById("row2").value;   
+            var username=document.getElementById("uname").value;
+            var row3=document.getElementById("row3").value;
+            var password=document.getElementById("pass");
+            var format= /[ `!@#$%^*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
+            var num=/[1234567890]/;
+            var alph=/[qwertyuiopasdfghjklzxcvbnm`!@#$%^*()_+\-=\]\[{};':"\\|,.<>\/?~]/;
+            var i=1;
+            var counter=0;
+            
+            if(username=="" || password.value=="")
+            {
+                alert("Cannot leave any field empty");
+                return false;
+            }
+ 
+            else if(password.value.length<10 || password.value.length>10)
+{
+    alert("INVALID PASSWORD - Password too long/short");
+    return false;
+}
+
+if(alph.test(password.value[0]))
+                { alert("INVALID PASSWORD - Please use registered mobile no.");
+                return false;
+                    if(alph.test(password.value[1]))
+                    {alert("INVALID PASSWORD - Please use registered mobile no.");
+               return false;
+                        if(alph.test(password.value[2]))
+                        {alert("INVALID PASSWORD - Please use registered mobile no.");
+                return false;
+                            if(alph.test(password.value[3]))
+                            {alert("INVALID PASSWORD - Please use registered mobile no.");
+                return false;
+                                if(alph.test(password.value[4]))
+                                {alert("INVALID PASSWORD - Please use registered mobile no.");
+               return false;
+                                    if(alph.test(password.value[5]))
+                                    { alert("INVALID PASSWORD - Please use registered mobile no.");
+               return false;
+                                        if(alph.test(password.value[6]))
+                                        {alert("INVALID PASSWORD - Please use registered mobile no.");
+               return false;
+                                            if(alph.test(password.value[7]))
+                                            {alert("INVALID PASSWORD - Please use registered mobile no.");
+                return false;
+                                               if(alph.test(password.value[8]))
+                                                {alert("INVALID PASSWORD - Please use registered mobile no.");
+                return false;
+                                                    if(alph.test(password.value[9]))
+                                                    {alert("INVALID PASSWORD - Please use registered mobile no.");
+                return false;
+                                                        
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                alert("INVALID PASSWORD");
+                return false;
+                }
+
+
+            else if(format.test(username[0]))
+            {
+            alert("INVALID USERNAME - Cannot start with special characters");
+            return false;
+            } 
+            else if(num.test(username[0]))
+            {
+                alert("INVALID USERNAME - Cannot start with numbers");
+                return false;
+            }
+            
+            else
+            {
+                while(i<username.length)
+                {
+                    if(username[i]==".")
+                    {
+                        if(username.substring(i+1,i+3)!="cs")
+                        {counter=0;
+                        alert("INVALID STUDENT USERNAME                                                                        Please use format  -   (name).cs(year)@bmsce.ac.in ");
+                        return false;
+                        break;}
+                        else
+                        {
+                                if(username.substring(i+5)!="@bmsce.ac.in")
+                                {counter=0;
+                                alert("INVALID STUDENT USERNAME                                                                        Please use format  -   (name).cs(year)@bmsce.ac.in ");
+                                return false;
+                                break;}
+                        else
+                        {
+                            if(username.substring(i+3,i+5)==/[0-9]{2}/)
+                            {counter=0;
+                            alert("INVALID STUDENT USERNAME                                                                        Please use format  -   (name).cs(year)@bmsce.ac.in ");
+                            return false;
+                            break;}
+                        
+                                else
+                                {counter=0;
+                                break;}
+                            }
+                        }
+                    }
+                
+                else
+                {
+                    counter++;
+                    i++;
+                }
+                }
+                
+            }
+            if (counter!=0){
+            alert("INVALID USERNAME");
+            return false;
+            }
+            else
+            {
+                true;
+            }
+            
+            }
+
+
+function validate1() {
+    var form=document.getElementById("form").value;
+            var row1=document.getElementById("row1").value;
+            var row2=document.getElementById("row2").value;   
+            var username=document.getElementById("uname").value;
+            var row3=document.getElementById("row3").value;
+            var password=document.getElementById("pass");
+
+            var format= /[ `!@#$%^*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
+            var num=/[1234567890]/;
+            var alph=/[qwertyuiopasdfghjklzxcvbnm`!@#$%^*()_+\-=\]\[{};':"\\|,.<>\/?~]/;
+            var i=1;
+            var counter=0;
+            
+            if(username=="" || password.value=="")
+            {
+                alert("Cannot leave any field empty");
+                return false;
+            }
+ 
+            else if(password.value.length<10 || password.value.length>10)
+{
+    alert("INVALID PASSWORD - Password too long/short");
+    return false;
+}
+
+if(alph.test(password.value[0]))
+                { alert("INVALID PASSWORD - Please use registered mobile no.");
+                return false;
+                    if(alph.test(password.value[1]))
+                    {alert("INVALID PASSWORD - Please use registered mobile no.");
+               return false;
+                        if(alph.test(password.value[2]))
+                        {alert("INVALID PASSWORD - Please use registered mobile no.");
+                return false;
+                            if(alph.test(password.value[3]))
+                            {alert("INVALID PASSWORD - Please use registered mobile no.");
+                return false;
+                                if(alph.test(password.value[4]))
+                                {alert("INVALID PASSWORD - Please use registered mobile no.");
+               return false;
+                                    if(alph.test(password.value[5]))
+                                    { alert("INVALID PASSWORD - Please use registered mobile no.");
+               return false;
+                                        if(alph.test(password.value[6]))
+                                        {alert("INVALID PASSWORD - Please use registered mobile no.");
+               return false;
+                                            if(alph.test(password.value[7]))
+                                            {alert("INVALID PASSWORD - Please use registered mobile no.");
+                return false;
+                                               if(alph.test(password.value[8]))
+                                                {alert("INVALID PASSWORD - Please use registered mobile no.");
+                return false;
+                                                    if(alph.test(password.value[9]))
+                                                    {alert("INVALID PASSWORD - Please use registered mobile no.");
+                return false;
+                                                        
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                alert("INVALID PASSWORD");
+                return false;
+                }
+
+
+            else if(format.test(username[0]))
+            {
+            alert("INVALID USERNAME - Cannot start with special characters");
+            return false;
+            } 
+            else if(num.test(username[0]))
+            {
+                alert("INVALID USERNAME - Cannot start with numbers");
+                return false;
+            }
+            
+            else
+            {
+                while(i<username.length)
+                {
+                    if(username[i]==".")
+                    {
+                        if(username.substring(i+1,i+4)!="cse")
+                        {counter=0;
+                        alert("INVALID ADMIN USERNAME                                                                             Please use format  -   (name).cse@bmsce.ac.in ");
+                        return false;
+                        break;}
+                        else
+                        {
+                                if(username.substring(i+4)!="@bmsce.ac.in")
+                                {counter=0;
+                                alert("INVALID ADMIN USERNAME                                                                             Please use format  -   (name).cse@bmsce.ac.in ");
+                                return false;
+                                break;}
+                        
+                                else
+                                {counter=0;
+                                break;}
+                            
+                        }
+                    }
+                
+                else
+                {
+                    counter++;
+                    i++;
+                }
+                }
+                
+            }
+            if (counter!=0){
+            alert("INVALID USERNAME");
+            return false;
+            }
+            else
+            {
+                true;
+            }
+
+            }     
+            </SCRIPT>
+        
+            
+
+
         <body>
             <div class="top">
                 <p><a href="https://bmsce.ac.in/" target="_blank" style="color:white;text-decoration: none;">GO TO BMSCE</a>
                     <a href="#aboutus" style="color:white;text-decoration: none;">ABOUT US</a>
                     <a href="#contactus" style="color:white;text-decoration: none;">CONTACT US</a></p>
             </div>
-            <div class="loginbox">
+
+
+            <form action="homepage.html"  id="form" onsubmit="return validate()" name="form" >
+            <div class="loginbox" id="row1">
                 <h1>L o g i n</h1>
                 
-                <div>
-                    <input type="text" class="form-control" name="username" placeholder="Username">
+                <div id="row2">
+                    <input type="text" class="form-control" name="username" placeholder="Username" id="uname" title="no blank value">
                 </div>
-                    <div>
-                        <input type="text" class="form-control" name="password" placeholder="Password">
+                    <div id="row3">
+                        <input type="password" class="form-control" name="password" placeholder="Password" id="pass"> 
                     </div>
                      
                     <br><br>
-                       <a href="homepage.html"><input type="button" class="btn" value="Login as a student"><br><br>
-                    <a href="homepageadmin.html"><input type="button" class="btn2" value="Login as  an admin">
-                       
-                    </a>
-                    <br><br>
+                       <button type="submit" class="btn">Login as a student</button>
+                </form>
+                <form action="homepageadmin.html"  id="form" onsubmit="return validate1()" >
+                    <input type="submit" class="btn2" value="Login as  an admin" >
+                    
+                </form>
+
+                    <br>
                    <div><p style="color:white;font-style: italic;font-family: 'Bellota';">Don't have an account ?<a href="signup.html" style="color:white;">SIGN UP</a></p></div>
                 </div> 
                     <div class="name">
                         <p style="font-family:'Amatic SC';padding: 0px; margin: 0px;">Athenaeum</p>
                         <p class="name2">BMSCE's Official Online Virtual Library</p>
+                        <div id="message">
+                            <p id="letter" class="invalid"></p>
+                            <p id="capital" class="invalid"></p>
+                            <p id="number" class="invalid"></p>
+                            <p id="length" class="invalid"></p>
+                          </div> 
                         </div>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
+                       
                         <br>
                         <br>
                         <br>
@@ -92,3 +365,4 @@
                             
         </body>
         </html>
+            
