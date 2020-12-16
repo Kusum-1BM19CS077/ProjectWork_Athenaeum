@@ -109,7 +109,7 @@ text-align: center;
 <br>
 
 
-<form action="homepageadmin.html">
+<form action="main_admin.html">
   <p style="border: '1px solid black'">
   <div class="for">
     <br>
@@ -141,24 +141,24 @@ text-align: center;
 
 
     <label for="topic"><p style="color: white; font-size: 40px;text-align:center;font-family:'Amatic SC' ;font-style: italic;">NAME OF THE BOOK</p></label>
-    <input type="text" placeholder="Enter Name" name="name" required><br>
+    <input type="text" placeholder="Enter Name" name="name" id="name" required><br>
     <br>
     <br>
         <label for="topic"><p style="color: white; font-size: 40px;text-align:center;font-family:'Amatic SC' ;font-style: italic;">
         AUTHOR OF THE BOOK</p></label>
-    <input type="text" placeholder="Enter Name" name="name" required><br>
+    <input type="text" placeholder="Enter Name" name="name" id="author" required><br>
     <br>
     <br>
         <label for="topic"><p style="color: white; font-size: 40px;text-align:center;font-family:'Amatic SC' ;font-style: italic;">
         SUBJECT NAME</p></label>
-    <input type="text" placeholder="Enter Subject" name="subject" required><br>
+    <input type="text" placeholder="Enter Subject" name="subject" id="sub" required><br>
     <br>
     <br>
 
 
 
     <label for="topic"><p style="color: white; font-size: 40px;text-align:center;font-family:'Amatic SC' ;font-style: italic;">NUMBER OF BOOKS AVAILABLE</p></label>
-    <input type="text" placeholder="Enter number" name="number" required>
+    <input type="text" placeholder="Enter number" name="number" id="num" required>
     <br>
     <br>
     <br>
@@ -167,7 +167,7 @@ text-align: center;
 
 
     <br>
-    <input type="submit" value="Submit" onclick="show_alert();">
+    <input type="submit" value="Submit" onclick="return show_alert();">
 
     <br>
     <br>
@@ -181,10 +181,29 @@ text-align: center;
 
 
 function show_alert() {
-    if(document.forms['action'].checkValidity()){
-  alert("Book(s) added successfully");
-    }
+  var name=document.getElementById("name").value;
+    var sub=document.getElementById("sub").value;
+    var author=document.getElementById("author").value;
+    var num=document.getElementById("num").value;
+    var alph=/[qwertyuiopasdfghjklzxcvbnm`!@#$%^*()_+\-=\]\[{};':"\\|,.<>\/?~]/;
 
+  if(name=="" || sub=="" || author=="" || num==""){
+  alert("Update unsuccessfull  -  Cannot leave any field empty");
+  return false;
+    }
+  
+if(alph.test(num))
+{
+    alert("Update unsuccessfull  -  Invalid number");
+    return false;
+}
+
+    
+            else
+            {
+              alert("Update successfull !");
+                true;
+            }
 }
 </script>
 
