@@ -59,7 +59,7 @@ text-align: center;
 .sidenav {
   margin-top: 520px;
  margin-bottom: 0px;
- font-family: Bellota;
+ font-family: 'Amatic SC';
  float: left;
  margin-left: 11px;
   height: 90vh;
@@ -69,6 +69,7 @@ text-align: center;
   top: 0;
   left: 0;
   border: 4px solid black;
+    background-color: rgba(0, 0, 0, 0.26);
   border-radius: 12px;"
   overflow-x: hidden;
   padding-top: 30px;
