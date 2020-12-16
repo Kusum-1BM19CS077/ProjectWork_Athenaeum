@@ -109,14 +109,14 @@ cursor: pointer;
 <br>
 <br>
 
-<form action="homepageadmin.html">
+<form action="bookexchange_admin.html">
   <p style="border: '1px solid black'">
   <div class="for">
     <br>
     <left>
 
     <label for="topic"><p style="color: white; font-size: 40px;text-align:center;font-family:'Amatic SC' ;font-style: italic;">NAME OF THE STUDENT</p></label>
-    <input type="text" placeholder="Enter Name" name="name" required><br>
+    <input type="text" placeholder="Enter Name" name="name" id="name" required><br>
     <br>
     <br>
 
@@ -137,7 +137,7 @@ cursor: pointer;
     <br>
 
     <label for="topic"><p style="color: white; font-size: 40px;font-family:'Amatic SC' ;font-style: italic;text-align: center;">SUBJECT NAME</p></label>
-    <input type="text" placeholder="Enter subject" name="suject" required>
+    <input type="text" placeholder="Enter subject" name="suject" id="sub" required >
     <br>
     <br>
     <br>
@@ -145,14 +145,14 @@ cursor: pointer;
 
 
     <label for="email"><p style="color: white; font-size: 40px;text-align:center;font-family:'Amatic SC' ;font-style: italic;">EMAIL OF STUDENT</p></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
+    <input type="text" placeholder="Enter Email" name="email" id="mail" required>
     <br>
     <br>
     <br></p>
 
     <br>
 
-    <input type="submit" value="Submit" onclick="show_alert();">
+    <input type="submit" value="Submit" onclick="return show_alert();">
 
     <br>
     <br>
@@ -166,9 +166,20 @@ cursor: pointer;
 
 
 function show_alert() {
-    if(document.forms['action'].checkValidity()){
-  alert("Book(s) added successfully");
+    var name=document.getElementById("name").value;
+    var sub=document.getElementById("sub").value;
+    var mail=document.getElementById("mail").value;
+
+    if(name=="" || sub=="" || mail==""){
+  alert("Update unsuccessfull  -  Cannot leave any field empty");
+  return false;
+    }           
+            
+            else{
+        alert("Update successfull !");
+        true;
     }
+
 
 }
 </script>
