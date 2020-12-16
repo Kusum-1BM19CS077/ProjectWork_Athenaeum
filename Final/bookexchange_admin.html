@@ -24,7 +24,7 @@ html {
   clear: both;
   display: table;
   width:50%;
-  
+
 }
 
 .title {
@@ -63,34 +63,34 @@ text-align: center;
 }
 
 
-  input[type=text],select,input[type=submit], .button {
-  background-color:black;
-  border: 1px solid black;
-  border-radius: 12px;
-  color: white;
-  padding: 16px;
-  font-size: 20px;
-    font-family: 'Arial';
-  cursor: pointer;
-    align-self: center;
-    width: 450px;
-    font-family: Montserrat Alternates;
+input[type=text],select,input[type=submit] {
+background-color:black;
+border: 1px solid black;
+border-radius: 12px;
+color: white;
+padding: 16px;
+font-size: 20px;
+  font-family: 'Arial';
+cursor: pointer;
+  align-self: center;
+  width: 450px;
+  font-family: Montserrat Alternates;
 
 }
-.for {  
+.for {
     font-family: Amatic SC;
-    color: white;  
+    color: white;
     font-size: 25px;
   text-align: center;
   padding-left: 20px;
-  margin-top: 6px;    
-}    
+  margin-top: 6px;
+}
 
 
 </style>
 </head>
 <body>
- 
+
     <div class="top">
         <p><a href="#contactus" style="color:white;text-decoration: none; padding-right: 23px;">CONTACT US</a>
           <a href="login.html" style="color:white;text-decoration: none;padding-right: 23px;">LOGOUT</a>
@@ -109,7 +109,7 @@ text-align: center;
 <br>
 <br>
 
-<form action="/action_page.php">
+<form action="homepageadmin.html">
   <p style="border: '1px solid black'">
   <div class="for">
     <br>
@@ -119,7 +119,7 @@ text-align: center;
     <input type="text" placeholder="Enter Name" name="name" required><br>
     <br>
     <br>
-    
+
 
 
     <label for="topic"><p style="color: white; font-size: 40px;text-align:center;font-family:'Amatic SC' ;font-style: italic;">SEMESTER OF THE STUDENT</p></label>
@@ -142,29 +142,36 @@ text-align: center;
     <br>
     <br>
 
-    
+
 
     <label for="email"><p style="color: white; font-size: 40px;text-align:center;font-family:'Amatic SC' ;font-style: italic;">EMAIL OF STUDENT</p></label>
     <input type="text" placeholder="Enter Email" name="email" required>
     <br>
     <br>
     <br></p>
-    
+
     <br>
 
-    <button class="button" onclick="myFunction()">Submit</button>
+    <input type="submit" value="Submit" onclick="show_alert();">
 
-<script>
-function myFunction() {
-  alert("Your response has been submitted");
+    <br>
+    <br>
+    <br>
+        </left>
+
+  </div>
+    </p>
+    </form>
+    <script>
+
+
+function show_alert() {
+    if(document.forms['action'].checkValidity()){
+  alert("Book(s) added successfully");
+    }
+
 }
 </script>
-    <br>
-    <br>
-    <br>
-
-  </div></form>
-  </left>
 
 
 

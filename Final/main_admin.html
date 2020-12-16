@@ -24,7 +24,7 @@ html {
   clear: both;
   display: table;
   width:50%;
-  
+
 }
 
 .title {
@@ -77,20 +77,20 @@ text-align: center;
     font-family: Montserrat Alternates;
 
 }
-.for {  
+.for {
     font-family: Amatic SC;
-    color: white;  
+    color: white;
     font-size: 25px;
   text-align: center;
   padding-left: 20px;
-  margin-top: 6px;    
-}    
+  margin-top: 6px;
+}
 
 
 </style>
 </head>
 <body>
- 
+
     <div class="top">
         <p><a href="#contactus" style="color:white;text-decoration: none; padding-right: 23px;">CONTACT US</a>
           <a href="login.html" style="color:white;text-decoration: none;padding-right: 23px;">LOGOUT</a>
@@ -109,12 +109,12 @@ text-align: center;
 <br>
 
 
-<form action="/action_page.php">
+<form action="homepageadmin.html">
   <p style="border: '1px solid black'">
   <div class="for">
     <br>
     <left>
-        
+
         <label for="topic"><p style="color: white; font-size: 40px;text-align:center;font-family:'Amatic SC' ;font-style: italic;">SELECT SEMESTER</p></label>
     <select name="for2" id="for2">
     <option value="none">Select Semester</option>
@@ -154,7 +154,7 @@ text-align: center;
     <input type="text" placeholder="Enter Subject" name="subject" required><br>
     <br>
     <br>
-    
+
 
 
     <label for="topic"><p style="color: white; font-size: 40px;text-align:center;font-family:'Amatic SC' ;font-style: italic;">NUMBER OF BOOKS AVAILABLE</p></label>
@@ -163,9 +163,9 @@ text-align: center;
     <br>
     <br>
 
-    
 
-    
+
+
     <br>
     <input type="submit" value="Submit" onclick="show_alert();">
 
@@ -184,7 +184,7 @@ function show_alert() {
     if(document.forms['action'].checkValidity()){
   alert("Book(s) added successfully");
     }
-                
+
 }
 </script>
 
