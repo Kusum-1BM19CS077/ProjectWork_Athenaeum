@@ -57,7 +57,8 @@ color: white;
 .sidenav {
   margin-top: 520px;
     margin-bottom: 0px;
-    font-family: Bellota;
+    font-family: 'Amatic SC';
+    background-color: rgba(0, 0, 0, 0.26);
     float: left;
     margin-left: 11px;
   height: 90vh;
