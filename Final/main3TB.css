@@ -43,7 +43,7 @@ text-align: center;
     font-size: 50px;
 }
 .display-container {
-    
+
   background-color: rgb(0,0,0,0.5);
     padding-top: 0px;
 }
@@ -59,7 +59,7 @@ text-align: center;
 .sidenav {
   margin-top: 520px;
  margin-bottom: 0px;
- font-family: 'Amatic SC';
+ font-family: Bellota;
  float: left;
  margin-left: 11px;
   height: 90vh;
@@ -101,8 +101,8 @@ text-align: center;
 .dropdown {
     text-align: center;
     padding-top: 10px;
-    
-    
+
+
 }
 
 .dropdown-content {
@@ -144,7 +144,7 @@ tr:nth-child(even) {
 
 .tr1{
     font-family: Bellota;
-    
+
 }
 
 .name{

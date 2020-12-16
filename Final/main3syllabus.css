@@ -57,7 +57,7 @@ color: white;
 .sidenav {
   margin-top: 520px;
     margin-bottom: 0px;
-    font-family: 'Amatic SC';
+    font-family: Bellota;
     background-color: rgba(0, 0, 0, 0.26);
     float: left;
     margin-left: 11px;
@@ -112,7 +112,7 @@ color: white;
     margin-right: 55px;
 }
 .main {
-  margin-left: 200px; 
+  margin-left: 200px;
   padding: 0px 10px;
 }
 @media screen and (max-height: 450px) {
