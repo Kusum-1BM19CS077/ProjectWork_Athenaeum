@@ -157,7 +157,12 @@ if(dob.length!=10)
 {
     alert("INVALID D.O.B");
     return false;
-}
+
+    if(dob.substring(i+7,i+11)>2003)
+    {
+        alert("INVALID D.O.B");
+        return false;
+    }
 
 if(!dobformat.test(dob))
 {
