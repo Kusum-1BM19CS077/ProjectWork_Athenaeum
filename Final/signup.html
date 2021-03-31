@@ -20,10 +20,12 @@
             var row3=document.getElementById("row3").value;
             var password=document.getElementById("pass");
             var row4=document.getElementById("row4").value;
+            var dob=document.getElementById("dob").value
             var row5=document.getElementById("row5").value;
             var format= /[ `!@#$%^*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
             var num=/[1234567890]/;
             var alph=/[qwertyuiopasdfghjklzxcvbnm`!@#$%^*()_+\-=\]\[{};':"\\|,.<>\/?~]/;
+            var dobformat=/^(0?[1-9]|1[0-9]|2[0-9]|3[0-1])\/(0?[1-9]|1[0-2])\/(0?[1-2]|1[9-0]2[1-2]3[9-0])$/;
             var i=1;
             var counter=0;
             var genders = document.getElementsByName("option");
@@ -151,6 +153,28 @@ if(alph.test(password.value[0]))
             }
 
 
+if(dob.length!=10)
+{
+    alert("INVALID D.O.B");
+    return false;
+}
+
+if(!dobformat.test(dob))
+{
+    alert("INVALID D.O.B");
+    return false;
+}
+
+
+            else
+            {
+                true;
+            }
+
+
+
+            }
+
 
         </SCRIPT>
 
@@ -170,7 +194,9 @@ if(alph.test(password.value[0]))
                     <div id="row3">
                         <input id="pass" type="password" class="form-control" name="password" placeholder="Create Password">
                     </div>
-
+                    <div id="row4">
+                        <input type="text" class="form-control" name="dob" placeholder="Date of Birth: DD/MM/YYYY" id="dob">
+                    </div>
 
                     <div class="text" id="row5">
                         <label style="text-align: right;">Gender:</label><br><br>
