@@ -15,7 +15,7 @@
             function validate() {
             var form=document.getElementById("form").value;
             var row1=document.getElementById("row1").value;
-            var row2=document.getElementById("row2").value;   
+            var row2=document.getElementById("row2").value;
             var username=document.getElementById("uname").value;
             var row3=document.getElementById("row3").value;
             var password=document.getElementById("pass");
@@ -29,22 +29,22 @@
             var i=1;
             var counter=0;
             var genders = document.getElementsByName("option");
-        
-            
+
+
             if(username=="" || password.value=="" || dob=="")
             {
                 alert("Cannot leave any field empty");
                 return false;
             }
 
-             
+
 else if(password.value.length<10 || password.value.length>10)
 {
     alert("INVALID PASSWORD - Password too long/short");
     return false;
 }
 
-    
+
 if(alph.test(password.value[0]))
                 { alert("INVALID PASSWORD - Please use registered mobile no.");
                 return false;
@@ -75,7 +75,7 @@ if(alph.test(password.value[0]))
                                                     if(alph.test(password.value[9]))
                                                     {alert("INVALID PASSWORD - Please use registered mobile no.");
                 return false;
-                                                        
+
                                                     }
                                                 }
                                             }
@@ -95,14 +95,14 @@ if(alph.test(password.value[0]))
             {
             alert("INVALID USERNAME - Cannot start with special characters");
             return false;
-            } 
+            }
             else if(num.test(username[0]))
             {
                 alert("INVALID USERNAME - Cannot start with numbers");
                 return false;
             }
-            
-            else 
+
+            else
             {
                 while(i<username.length)
                 {
@@ -127,14 +127,14 @@ if(alph.test(password.value[0]))
                             alert("INVALID USERNAME                                                                        Please use format  -   (name).cs(year)@bmsce.ac.in ");
                             return false;
                             break;}
-                        
+
                                 else
                                 {counter=0;
                                 break;}
                             }
                         }
                     }
-                
+
                 else
                 {
                     counter++;
@@ -157,7 +157,7 @@ if(dob.length!=10)
 {
     alert("INVALID D.O.B");
     return false;
-}  
+}
 
 if(!dobformat.test(dob))
 {
@@ -165,17 +165,17 @@ if(!dobformat.test(dob))
     return false;
 }
 
-    
+
             else
             {
                 true;
             }
 
-    
-        
+
+
             }
 
-            
+
         </SCRIPT>
 
 
@@ -187,17 +187,17 @@ if(!dobformat.test(dob))
             <form action="homepage.html"  id="form" onsubmit="return validate()" name="form" >
             <div class="signupbox" id="row1">
                 <h1>S i g n U p</h1>
-                
+
                 <div id="row2">
                     <input id="uname" type="text" class="form-control" name="username" placeholder="Enter a username/ E-mail">
                 </div>
                     <div id="row3">
                         <input id="pass" type="password" class="form-control" name="password" placeholder="Create Password">
                     </div>
-                    <div id="row4">
+                    <!-- <div id="row4">
                         <input type="text" class="form-control" name="dob" placeholder="Date of Birth: DD/MM/YYYY" id="dob">
-                    </div>
-                
+                    </div> -->
+
                     <div class="text" id="row5">
                         <label style="text-align: right;">Gender:</label><br><br>
                         <input type="radio" name="option" id="Male">
@@ -207,7 +207,7 @@ if(!dobformat.test(dob))
                         <input type="radio" name="option" id="Other">
                         <label for="option">Other</label>
                     </div>
-                    
+
                     <br>
                        <input type="submit" class="btn" value="Sign Up">
                     </a>
@@ -217,7 +217,7 @@ if(!dobformat.test(dob))
                         <p style="font-family:'Amatic SC';padding: 0px; margin: 0px;">Athenaeum</p>
                         <p class="name2">BMSCE's Official Online Virtual Library</p>
                         </div>
-                        
+
                         <br>
                         </body>
                         </html>
